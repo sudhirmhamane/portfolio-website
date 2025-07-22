@@ -2,6 +2,10 @@
 
 A modern, responsive portfolio website built with **React** and **Tailwind CSS** to showcase my skills, projects, certificates, and contact information.
 
+## Deployment
+
+Live Demo: [https://sudhirmhamane.vercel.app/](https://sudhirmhamane.vercel.app/)
+
 ## Features
 
 - Smooth scrolling navigation
@@ -97,14 +101,10 @@ yarn preview
 └── ...
 ```
 
-## Deployment
-
-This project is ready to deploy on [Vercel](https://vercel.com/) or any static hosting service. The included `vercel.json` handles SPA routing.
+Ready to deploy on [Vercel](https://vercel.com/) or any static hosting service. The included `vercel.json` handles SPA routing.
 
 ## License
 
 This project is for personal portfolio use. Feel free to fork and adapt for your own portfolio!
 
 ---
-
-Made with ❤️ by
