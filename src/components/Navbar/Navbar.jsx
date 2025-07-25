@@ -35,7 +35,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center space-x-2 text-2xl font-bold text-white cursor-pointer" onClick={() => handleNavClick('home')} tabIndex={0} aria-label="Go to Home">
           <Rocket className="w-7 h-7 text-blue-400" />
-          <span>SudhirM</span>
+          <span>Sudhir.dev</span>
         </div>
 
         {/* Desktop Links */}

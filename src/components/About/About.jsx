@@ -40,7 +40,7 @@ const About = () => {
               Hello! I'm Sudhir Mhamane, a passionate Full Stack Developer and
               Electrical Engineer from Solapur, Maharashtra. With a strong
               foundation in Java, Data Structures, and modern web technologies
-              like React, Tailwind CSS, and Spring Boot, I bring ideas to life
+              like React, Tailwind CSS, Node.js and Express.js, I bring ideas to life
               through clean, responsive, and user-friendly web applications. I
               have a year of experience building scalable and maintainable
               software, and I enjoy solving complex problems and continuously

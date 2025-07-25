@@ -1,17 +1,66 @@
 import React, { useState, useEffect } from "react";
 import { FaReact, FaJava, FaHtml5, FaCss3Alt, FaGithub } from "react-icons/fa";
-import { SiSpringboot, SiTailwindcss,SiJavascript,SiCss3 } from "react-icons/si";
+import {
+  SiSpringboot,
+  SiTailwindcss,
+  SiJavascript,
+  SiCss3,
+  SiSupabase,
+  SiTypescript,
+  SiMongodb,
+  SiNodedotjs,
+  SiPostgresql,
+  SiExpress,
+} from "react-icons/si";
 import energyImg from "../../assets/recipe img.png";
 import weather from "../../assets/weather.png";
-import ScrollReveal from '../../utils/ScrollReveal';
+import ScrollReveal from "../../utils/ScrollReveal";
 
 const projects = [
+  {
+    title: "QRupay",
+    description:
+      "A smart solution for emergency situations – QRupay stores your critical health data and links it to a scannable QR code for instant access by first responders.",
+    image: "qrupay1.png", // Replace with your actual image name in the assets folder
+    tech: [
+      <FaReact size={40} />,
+      <SiTailwindcss size={40} />,
+      <SiSupabase size={40} />,
+      <SiTypescript size={40} />,
+    ],
+    github: "https://github.com/sudhirmhamane/qrupay",
+    demo: "https://qrupay.vercel.app/",
+  },
+  {
+  title: "Creativo",
+  description:
+    "Currently Building a full-stack AI SaaS application using the PERN stack. The platform includes user authentication, AI-powered features, and integrated Clerk subscriptions and billing.",
+  image: "image.png", // replace with actual filename
+  tech: [<FaReact size={40} />, <SiPostgresql size={40} />, <SiExpress size={40} />, <SiNodedotjs size={40} />,],
+  // github: "https://github.com/sudhirmhamane/ai-saas-app", // replace with your actual repo URL
+  // demo: "https://ai-saas-app.vercel.app/", // replace if deployed
+}
+,
+  {
+    title: "ShowMate",
+    description:
+      "Developing a full-stack movie ticket booking platform .The frontend is fully completed in React with dynamic date selection, pricing logic, and a smooth booking flow with Admin panel.",
+    image: "showmate.png", // Replace with actual image name
+    tech: [
+      <FaReact size={40} />,
+      <SiTailwindcss size={40} />,
+      <SiMongodb size={40} />,
+      <SiNodedotjs size={40} />,
+    ],
+    github: "https://github.com/sudhirmhamane/ShowMate", // replace with actual repo if different
+    demo: "https://showsmate.vercel.app/", // replace if deployed or leave empty for now
+  },
   {
     title: "GONATIONS",
     description:
       "Developed a fully responsive web application that provides insightful facts and statistics about countries around the world.",
     image: "project1.png",
-    tech: [<FaReact size={40} />,<SiTailwindcss size={40} />],
+    tech: [<FaReact size={40} />, <SiTailwindcss size={40} />],
     github: "https://github.com/sudhirmhamane/GoNations",
     demo: "https://gonations.vercel.app/",
   },
@@ -20,7 +69,11 @@ const projects = [
     description:
       "Built a recipe application leveraging TheMealDB API to provide a rich selection of international and regional recipes.",
     image: "project2.png",
-    tech: [<FaHtml5 size={40} />, <SiCss3 size={40} />,<SiJavascript size={40} />],
+    tech: [
+      <FaHtml5 size={40} />,
+      <SiCss3 size={40} />,
+      <SiJavascript size={40} />,
+    ],
     github: "https://github.com/sudhirmhamane/Recipe-Finder-App",
     demo: "https://recipefinder-app.vercel.app/",
   },
@@ -30,7 +83,11 @@ const projects = [
     description:
       "Developed a responsive weather forecasting application using HTML, CSS, and JavaScript.",
     image: weather,
-    tech: [<FaHtml5 size={40} />, <SiCss3 size={40} />,<SiJavascript size={40} />],
+    tech: [
+      <FaHtml5 size={40} />,
+      <SiCss3 size={40} />,
+      <SiJavascript size={40} />,
+    ],
     github: "https://github.com/sudhirmhamane/WeatherForecast",
     demo: "https://forecastweather.vercel.app/",
   },
@@ -41,8 +98,8 @@ function useIsSmallScreen() {
   useEffect(() => {
     const check = () => setIsSmall(window.innerWidth < 768);
     check();
-    window.addEventListener('resize', check);
-    return () => window.removeEventListener('resize', check);
+    window.addEventListener("resize", check);
+    return () => window.removeEventListener("resize", check);
   }, []);
   return isSmall;
 }
@@ -50,7 +107,8 @@ function useIsSmallScreen() {
 const Projects = () => {
   const isSmallScreen = useIsSmallScreen();
   const [showAll, setShowAll] = useState(false);
-  const visibleProjects = isSmallScreen && !showAll ? projects.slice(0, 2) : projects;
+  const visibleProjects =
+    isSmallScreen && !showAll ? projects.slice(0, 2) : projects;
 
   return (
     <section id="projects" className="py-20 bg-graph text-white px-6">
@@ -114,7 +172,7 @@ const Projects = () => {
               onClick={() => setShowAll((v) => !v)}
               className="px-6 py-2 rounded-full bg-blue-500 text-white font-semibold hover:bg-blue-600 transition"
             >
-              {showAll ? 'Show Less' : 'Show More'}
+              {showAll ? "Show Less" : "Show More"}
             </button>
           </div>
         )}

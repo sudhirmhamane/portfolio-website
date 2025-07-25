@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import profileImg from "../../assets/sudhirpfp.png";
 import { smoothScrollTo } from '../../utils/smoothScroll';
 
-const texts = ["Web Developer", "Tech Enthusiast", "Electrical Engineer"];
+const texts = ["Web Developer", "Tech Enthusiast", "Team Player", "Electrical Engineer"];
 
 function useTypewriter(words, delay = 120, pause = 1000) {
   const [index, setIndex] = useState(0);
@@ -56,7 +56,7 @@ const Home = () => {
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white text-center px-4 flex flex-wrap justify-center items-center gap-2">
         <span className="whitespace-nowrap">I'm Sudhir Mhamane - A</span>
         <span
-          className="text-blue-400 whitespace-nowrap transition-opacity duration-700 ease-in-out sm:ml-2 sm:inline-block block inline-block w-40 text-center"
+          className="text-blue-400 whitespace-nowrap transition-opacity duration-700 ease-in-out sm:ml-2 sm:inline-block block w-40 text-center"
           style={{ minHeight: 40 }}
         >
           {typewriterText}
@@ -78,14 +78,14 @@ const Home = () => {
         >
           Connect
         </a>
-        <a
-          href="resume.pdf"
+        {/* <a
+          href=""
           target="_blank"
           rel="noopener noreferrer"
           className="border border-blue-400 text-blue-400 px-6 py-2 rounded-full hover:bg-blue-500 hover:text-white transition"
         >
           Resume
-        </a>
+        </a> */}
       </div>
     </section>
   );
