@@ -10,7 +10,16 @@ const Chatbot = () => {
   const handleSend = async () => {
     if (!input.trim()) return;
 
-    const newMessages = [...messages, { role: "user", content: input }];
+    const systemPrompt = {
+      role: "system",
+      content: context, // from step 1
+    };
+
+    const newMessages = [
+      systemPrompt,
+      ...messages,
+      { role: "user", content: input },
+    ];
     setMessages(newMessages);
     setInput("");
     setLoading(true);
@@ -74,7 +83,9 @@ const Chatbot = () => {
             {messages.map((msg, index) => (
               <div
                 key={index}
-                className={`${msg.role === "user" ? "text-right" : "text-left"}`}
+                className={`${
+                  msg.role === "user" ? "text-right" : "text-left"
+                }`}
               >
                 <div
                   className={`inline-block px-3 py-2 rounded-lg max-w-[90%] ${
