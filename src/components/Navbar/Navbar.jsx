@@ -46,6 +46,7 @@ const Navbar = () => {
           <a href="#projects" onClick={e => {e.preventDefault(); handleNavClick('projects');}} className="text-white text-lg font-bold transition hover:text-blue-300" aria-label="Projects">Projects</a>
           <a href="#certificates" onClick={e => {e.preventDefault(); handleNavClick('certificates');}} className="text-white text-lg font-bold transition hover:text-blue-300" aria-label="Certificates">Certificates</a>
           <a href="#contact" onClick={e => {e.preventDefault(); handleNavClick('contact');}} className="text-white text-lg font-bold transition hover:text-blue-300" aria-label="Contact">Contact</a>
+          
         </div>
 
         {/* Mobile Hamburger */}

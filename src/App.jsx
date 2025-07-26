@@ -7,6 +7,7 @@ import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Certificates from './components/Certificates/Certificates';
 import Contact from './components/Contact/Contact';
+import Chatbot from './components/Chatbot/Chatbot';
 
 const App = () => {
   return (
@@ -19,6 +20,9 @@ const App = () => {
         <section id="projects"><Projects /></section>
         <section id="certificates"><Certificates /></section>
         <section id="contact"><Contact /></section>
+
+         {/* ✅ Floating Chatbot */}
+        <Chatbot />
       </main>
       <Footer />
     </>
