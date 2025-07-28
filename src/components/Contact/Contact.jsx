@@ -2,7 +2,10 @@ import React from "react";
 import ScrollReveal from '../../utils/ScrollReveal';
 
 const Contact = () => {
+  const formspreeKey = import.meta.env.VITE_FORMSPREE_API_KEY;
+
   return (
+
     <section id="contact" className="py-20 bg-graph text-white px-6">
       <ScrollReveal>
         <div className="text-center mb-12 mt-8">
@@ -35,7 +38,7 @@ const Contact = () => {
 
           {/* Right side: Contact Form */}
           <form
-            action="https://formspree.io/f/xkgbjgvp"
+            action={formspreeKey}
             method="POST"
             className="bg-blue-500/10 border border-blue-400 rounded-xl p-6 shadow-lg space-y-4"
           >

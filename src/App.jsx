@@ -21,8 +21,8 @@ const App = () => {
         <section id="certificates"><Certificates /></section>
         <section id="contact"><Contact /></section>
 
-         {/* ✅ Floating Chatbot */}
-        <Chatbot />
+         {/* ✅ Floating Chatbot
+        <Chatbot /> */}
       </main>
       <Footer />
     </>
