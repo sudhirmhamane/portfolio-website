@@ -37,23 +37,23 @@ const projects = [
     "Currently Building a full-stack AI SaaS application using the PERN stack. The platform includes user authentication, AI-powered features, and integrated Clerk subscriptions and billing.",
   image: "image.png", // replace with actual filename
   tech: [<FaReact size={40} />, <SiPostgresql size={40} />, <SiExpress size={40} />, <SiNodedotjs size={40} />,],
-  // github: "https://github.com/sudhirmhamane/ai-saas-app", // replace with your actual repo URL
-  // demo: "https://ai-saas-app.vercel.app/", // replace if deployed
+  github: "https://github.com/sudhirmhamane/CreativoAI",
+  demo: "https://creativoai.vercel.app/",
 }
 ,
   {
     title: "ShowMate",
     description:
       "Developing a full-stack movie ticket booking platform .The frontend is fully completed in React with dynamic date selection, pricing logic, and a smooth booking flow with Admin panel.",
-    image: "showmate.png", // Replace with actual image name
+    image: "showmate.png",
     tech: [
       <FaReact size={40} />,
       <SiTailwindcss size={40} />,
       <SiMongodb size={40} />,
       <SiNodedotjs size={40} />,
     ],
-    github: "https://github.com/sudhirmhamane/ShowMate", // replace with actual repo if different
-    demo: "https://showsmate.vercel.app/", // replace if deployed or leave empty for now
+    github: "https://github.com/sudhirmhamane/ShowMate",
+    demo: "https://showsmate.vercel.app/",
   },
   {
     title: "GONATIONS",

@@ -78,14 +78,14 @@ const Home = () => {
         >
           Connect
         </a>
-        {/* <a
-          href=""
+        <a
+          href="Sudhir_Mhamane_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-blue-400 text-blue-400 px-6 py-2 rounded-full hover:bg-blue-500 hover:text-white transition"
         >
           Resume
-        </a> */}
+        </a>
       </div>
     </section>
   );

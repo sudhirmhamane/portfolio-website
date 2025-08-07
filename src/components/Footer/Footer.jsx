@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="w-full text-white bg-graph">
       <div className="flex flex-row md:flex-row justify-between items-center px-6 py-4">
         <p className="text-sm text-gray-400 text-center md:text-left">
-          Made with <span className="text-red-500">❤️</span> by Sudhir Mhamane
+          Made with <span className="text-red-500">❤️</span> by Sudhir
         </p>
         <div className="flex space-x-4 text-xl mt-2 md:mt-0">
           <a
