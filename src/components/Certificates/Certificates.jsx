@@ -3,6 +3,13 @@ import ScrollReveal from "../../utils/ScrollReveal";
 
 const certificates = [
   {
+    title: "Complete Web Developement - Udemy",
+    image: "c5.jpg",
+    link: "https://www.udemy.com/certificate/UC-be20f79a-e1d7-4f8d-89c8-0ace6ceae6ff/",
+    description:
+      "Acquired foundational Web Developement skills, frontend, backend, database, projects and more.",
+  },
+  {
     title: "Java for Beginners - Udemy",
     image: "BasicJavaCertificate.jpg", // Replace with your actual image filename
     link: "https://drive.google.com/file/d/1dZyB8PJUgkR2l48XipuLdZRcUNxb8A7p/view?usp=drivesdk", // Replace with actual certificate link
