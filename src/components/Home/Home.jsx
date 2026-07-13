@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import profileImg from "../../assets/sudhirpfp.png";
 import { smoothScrollTo } from '../../utils/smoothScroll';
 
-const texts = ["Web Developer", "Tech Enthusiast", "Team Player", "Electrical Engineer"];
+const texts = ["Web Developer", "Test Engineer", "Tech Enthusiast", "Team Player", "Electrical Engineer"];
 
 function useTypewriter(words, delay = 120, pause = 1000) {
   const [index, setIndex] = useState(0);
@@ -64,8 +64,8 @@ const Home = () => {
       </h1>
 
       <p className="max-w-2xl mt-6 text-lg text-gray-300">
-        I am a Full Stack Developer from Solapur, Maharashtra. I specialize in
-        creating beautiful, responsive, and fast websites. I have worked on
+        I am a Full Stack Developer and Software Testing enthusiast from Pune, Maharashtra. I specialize in
+        creating beautiful, responsive, and fast websites and Software Testing. I have worked on
         various projects ranging from small websites to large-scale web
         applications.
       </p>

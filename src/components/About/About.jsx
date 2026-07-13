@@ -37,14 +37,8 @@ const About = () => {
           />
           <div className="text-left">
             <p className="text-gray-200 leading-relaxed text-base sm:text-lg md:text-xl text-justify">
-              Hello! I'm Sudhir Mhamane, a passionate Full Stack Developer and
-              Electrical Engineer from Solapur, Maharashtra. With a strong
-              foundation in Java, Data Structures, and modern web technologies
-              like React, Tailwind CSS, Node.js and Express.js, I bring ideas to life
-              through clean, responsive, and user-friendly web applications. I
-              have a year of experience building scalable and maintainable
-              software, and I enjoy solving complex problems and continuously
-              learning new technologies to enhance my skill set.
+              Hello! I'm Sudhir Mhamane, a passionate Full Stack Developer, Software Testing Enthusiast, and Electrical Engineer from Pune, Maharashtra. With a strong foundation in Java, Data Structures, modern web technologies like React, Tailwind CSS, Node.js and Express.js, and Software Testing concepts, I bring ideas to life through clean, responsive, user-friendly, and reliable web applications. I have a year of experience building scalable and maintainable software, and I enjoy solving complex problems and continuously learning new technologies to enhance my skill set.
+
             </p>
 
             <h3 className="mt-8 text-lg font-semibold text-blue-400">
