@@ -79,7 +79,7 @@ const Home = () => {
           Connect
         </a>
         <a
-          href="Sudhir_Mhamane_Resume.pdf"
+          href="sudhir_resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="border border-blue-400 text-blue-400 px-6 py-2 rounded-full hover:bg-blue-500 hover:text-white transition"

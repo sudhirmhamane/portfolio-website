@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import profileImg from "../../assets/sudhipp.jpg";
+import profileImg from "../../assets/sudhir_image.jpeg";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import ScrollReveal from '../../utils/ScrollReveal';
@@ -28,11 +28,11 @@ const About = () => {
             "Driven by passion, powered by perseverance — that’s my journey."
           </p>
         </div>
-        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10">
+        <div className="max-w-6xl mx-auto flex flex-col lg:flex-row items-center gap-10 ">
           <img
             src={profileImg}
             alt="Sudhir Mhamane About profile"
-            className="w-[200px] h-[320px] object-cover rounded-lg shadow-lg border-3 border-blue-500"
+            className="w-[240px] h-[320px] object-cover rounded-lg shadow-lg border-3 border-blue-500"
             loading="lazy"
           />
           <div className="text-left">
