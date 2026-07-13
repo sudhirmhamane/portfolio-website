@@ -32,7 +32,7 @@ const skills = [
   { name: "GitHub", icon: <SiGithub color="#ffffff" size={55} /> },
   { name: "Git", icon: <SiGit color="#f1502f" size={55} /> },
   { name: "SQL", icon: <SiPostgresql color="#336791" size={55} /> },
-  { name: 'Software Testing', icon: <FaBug color="#EF4444" size={55} /> },
+  { name: 'Soft. Testing', icon: <FaBug color="#EF4444" size={55} /> },
 ];
 
 const Skills = () => {
